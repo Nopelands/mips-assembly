@@ -5,7 +5,7 @@ array1size: .word 16
 array2: .space 200
 
 
-#queremos armazenar no array 2 todos os numeros em array que sao iguais a 36
+#queremos armazenar no array 2 todos os numeros em array 1 que sao iguais a 36
 .text
 li $s2, 36 		#a = 36
 lw $t0, array1size	
