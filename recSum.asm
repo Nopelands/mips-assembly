@@ -2,8 +2,8 @@
 .ent __start
 
 .data
-a: .word 3
-b: .word 9
+a: .word 1
+b: .word 3
 
 .text
 __start:lw $a0, a 		#get a
